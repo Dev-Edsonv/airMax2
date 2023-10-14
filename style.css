@@ -142,9 +142,9 @@ img,
     }
 
     .links {
-        position: relative;
+        position: absolute;
         top: 82px;
-        left: 97px;
+        right: 95px;
         overflow: hidden;
     }
 
@@ -152,9 +152,9 @@ img,
         display: block;
         font-size: 10px;
         margin-top: 10px;
-        text-decoration: none;
         margin-left: 20px;
     }
+
 
     #logo {
         display: none;
@@ -165,6 +165,7 @@ img,
         display: block;
         width: 35px;
         margin-top: 20px;
+        margin-left: 120px;
     }
 
     main {

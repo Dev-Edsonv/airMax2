@@ -15,7 +15,7 @@ meuMenu.style.maxHeight = "0px"
 function showMenu() {
 
     if(meuMenu.style.maxHeight === "0px") {
-        meuMenu.style.maxHeight = "97px"
+        meuMenu.style.maxHeight = "120px"
         background.style.backgroundColor = "red"
     } else {
         meuMenu.style.maxHeight = "0px"
