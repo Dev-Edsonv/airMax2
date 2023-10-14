@@ -142,10 +142,12 @@ img,
     }
 
     .links {
+       display: block;
         position: relative;
         top: 81px;
         left: 116px;
         overflow: hidden;
+        max-height: 0px;
     }
 
     a {

@@ -7,13 +7,13 @@ function troquei(endereco) {
 
 }
 
-let meuMenu = document.querySelectorAll(".links")
+let meuMenu = document.querySelector(".links")
 
 meuMenu.style.maxHeight = "0px"
 
 function showMenu() {
 
-    if(meuMenu.style.maxHeight == "0px") {
+    if(meuMenu.style.maxHeight === "0px") {
         meuMenu.style.maxHeight = "120px"
     } else {
         meuMenu.style.maxHeight = "0px"
